@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+
+<dimen name="notification_custom_view_margin_end">0dp</dimen><!--右边水平方向去白边-->
+<dimen name="notification_custom_view_margin_start">0dp</dimen><!--左边水平方向去白边-->
+<dimen name="notification_stack_scroller_top_bottom_padding">0dp</dimen><!--垂直方向去白边-->
+<dimen name="notification_custom_view_corner_radius">0dp</dimen><!--圆角-->
+<dimen name="notification_stack_scroller_top_bottom_padding">0dp</dimen>
+<dimen name="notification_row_extra_padding">0dp</dimen>
+<dimen name="notification_min_height_legacy">122.5dp</dimen><!-- 折叠高度修改，解除通知折叠；设备不同数值不同-->
+
+</MIUI_Theme_Values>
