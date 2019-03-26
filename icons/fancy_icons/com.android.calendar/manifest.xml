@@ -2,11 +2,13 @@
 <!-- calendar -->
 <Icon version="1" frameRate="0" width="168" height="168" screenWidth="1080" resDensity="480" extraResourcesDensity="320,440,480,640" extraResources="sw1536-den320:den440:1,sw1200-den320:den320:1" extraScaleByDensity="320:0.7262,440:1" extraScales="sw1536-den320:1,sw1200-den320:0.7262" useVariableUpdater="DateTime.Day">
     <VariableBinders>
-	    <BroadcastBinder action="android.intent.action.TIME_SET" />
+        <BroadcastBinder action="android.intent.action.TIME_SET" />
         <BroadcastBinder action="android.intent.action.DATE_CHANGED" />
     </VariableBinders>
-    
-	<Group pivotX="84" pivotY="84">
-       <Image x="84" y="84" align="center" alignV="center" src="calendar_icon.png" srcid="#date" />
+
+    <Group pivotX="84" pivotY="84">
+        <Image x="84" y="84" align="center" alignV="center" src="calendar_icon.png" srcid="#date" />
+        <Image x="84" y="84" align="center" alignV="center" src="icon_mask.png" xfermode="dst_in" />
+        <Image x="84" y="84" align="center" alignV="center" src="icon_pattern.png" xfermode="dst_over" />
     </Group>
 </Icon>
